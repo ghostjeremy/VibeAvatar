@@ -1,0 +1,49 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+@media (hover: hover) {
+  header a:hover {
+    color: #33cc99 !important; 
+  }
+  header a.router-link-exact-active {
+    color: #33cc99 !important; 
+  }
+  .logoVA.router-link-exact-active .VA {
+    color: #33cc99 !important;
+  }
+}
+
+@media (min-width: 824px) {
+  #app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+@media (max-width: 700px) {
+  .login .tittle1{
+    display: inline;
+    font-weight: 900;
+    font-size: 3.9rem;
+   }
+   .login h1{
+    font-weight: 900;
+    font-size: 3.9rem;
+   }
+   .login button {
+    margin-top: 2.5rem;
+    width: 16rem;
+    height: 3.2rem;
+    font-size: 20px;
+ }
+}
+
+
