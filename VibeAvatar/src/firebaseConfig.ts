@@ -1,6 +1,6 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDZ9OOaoQ4qocV5Dy6J0b_LtpHK9yFpQFI",
+    apiKey: "InputYourApiKey",
     authDomain: "vibe-avatar.firebaseapp.com",
     projectId: "vibe-avatar",
     storageBucket: "vibe-avatar.appspot.com",
